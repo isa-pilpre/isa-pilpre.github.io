@@ -25,6 +25,36 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Additional Style -->
+  <style>
+    /* Reduce padding to bring boxes higher on the page */
+    .hero .container {
+      padding-top: 20px;
+    }
+
+    /* Custom colors for project boxes */
+    .icon-box-green {
+      background-color: #28a745; /* Original green */
+      color: white;
+    }
+    
+    .icon-box-orange {
+      background-color: #F5B041; /* Complementary soft orange */
+      color: white;
+    }
+
+    /* Ensure text in icon-boxes is white */
+    .icon-box .icon, .icon-box h4.title, .icon-box p {
+      color: white;
+    }
+    
+    /* Adjust icon box padding */
+    .icon-boxes .icon-box {
+      padding: 20px;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 
 <body class="index-page">
@@ -59,20 +89,20 @@
         <div class="container position-relative">
           <div class="row gy-4 mt-4 justify-content-center">
             <div class="col-xl-3 col-md-6">
-              <div class="icon-box">
+              <div class="icon-box icon-box-green"> <!-- Green for Bellabeat -->
                 <div class="icon"><i class="bi bi-watch"></i></div>
                 <h4 class="title"><a href="https://docs.google.com/presentation/d/e/2PACX-1vSu1zqhGeMOSQJXh9MEtGP2MOFpy7bBoLnW5KvPijUO2XHmS6zXIndi_mMcNMaApvOcfRM-62TC2VXx/pub?start=true&loop=true&delayms=3000" class="stretched-link">Bellabeat</a></h4>
                 <p>Smart Device Usage Analysis (Google Data Analysis Capstone Project)</p>
               </div>
-            </div><!--End Icon Box -->
+            </div><!-- End Icon Box -->
 
             <div class="col-xl-3 col-md-6">
-              <div class="icon-box">
+              <div class="icon-box icon-box-orange"> <!-- Orange for CPAM -->
                 <div class="icon"><i class="bi bi-capsule-pill"></i></div>
                 <h4 class="title"><a href="https://docs.google.com/presentation/d/e/2PACX-1vRVgOzcnTvWAV5TRWohsDs9n_8aqBdEHkEJT7uTlSakcAmZ84gct5ACZ4zKF9UBassS-up8g5HpO3vZ/pub?start=true&loop=true&delayms=3000" class="stretched-link">CPAM</a></h4>
                 <p>Exploratory Data Analysis on Cancer Prevalence in France (Google Slides in French)</p>
               </div>
-            </div><!--End Icon Box -->
+            </div><!-- End Icon Box -->
           </div>
         </div>
       </div>
