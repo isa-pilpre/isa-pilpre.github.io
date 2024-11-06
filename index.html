@@ -28,30 +28,39 @@
 
   <!-- Additional Style -->
   <style>
-    /* Reduce padding to bring boxes higher on the page */
+    /* Adjust padding to bring content higher on the page */
     .hero .container {
-      padding-top: 20px;
+      padding-top: 10px; /* Less padding to bring everything higher */
+    }
+
+    /* Reduce font size of the name and title */
+    .hero h1 {
+      font-size: 2rem; /* Smaller font for the name */
+    }
+
+    .hero h2 {
+      font-size: 1.5rem; /* Smaller font for the title */
     }
 
     /* Custom colors for project boxes */
     .icon-box-green {
-      background-color: #28a745; /* Original green */
-      color: white;
+      background-color: #28a745 !important; /* Original green */
+      color: white !important;
     }
     
     .icon-box-orange {
-      background-color: #F5B041; /* Complementary soft orange */
-      color: white;
+      background-color: #F5B041 !important; /* Complementary soft orange */
+      color: white !important;
     }
 
     /* Ensure text in icon-boxes is white */
     .icon-box .icon, .icon-box h4.title, .icon-box p {
-      color: white;
+      color: white !important;
     }
     
     /* Adjust icon box padding */
     .icon-boxes .icon-box {
-      padding: 20px;
+      padding: 20px !important;
       border-radius: 8px;
     }
   </style>
@@ -75,7 +84,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section accent-background">
       <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-5 justify-content-between">
+        <div class="row gy-3 justify-content-between"> <!-- Reduced spacing -->
           <div class="col-lg-8 d-flex flex-column justify-content-center">
             <h1>Isabelle Pilpré</h1>
             <h2>Data <span class="accent">Analyst</span></h2>
@@ -87,7 +96,7 @@
 
       <div class="icon-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
         <div class="container position-relative">
-          <div class="row gy-4 mt-4 justify-content-center">
+          <div class="row gy-3 mt-2 justify-content-center"> <!-- Reduced spacing -->
             <div class="col-xl-3 col-md-6">
               <div class="icon-box icon-box-green"> <!-- Green for Bellabeat -->
                 <div class="icon"><i class="bi bi-watch"></i></div>
