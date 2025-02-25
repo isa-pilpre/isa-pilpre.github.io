@@ -1,15 +1,201 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Bienvenue sur ma page GitHub</title>
-</head>
-<body>
-    <h1>Bienvenue sur ma page GitHub</h1>
-    <p></p>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Isabelle Pilpré - Data Analyst</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-    <h2>Mes projets de data analyse</h2>
-    <ul>
-        <li><a href="https://docs.google.com/presentation/d/e/2PACX-1vRVgOzcnTvWAV5TRWohsDs9n_8aqBdEHkEJT7uTlSakcAmZ84gct5ACZ4zKF9UBassS-up8g5HpO3vZ/pub?start=true&loop=true&delayms=3000">Rapport CPAM</a></li>
-        <li><a href="https://docs.google.com/presentation/d/e/2PACX-1vSu1zqhGeMOSQJXh9MEtGP2MOFpy7bBoLnW5KvPijUO2XHmS6zXIndi_mMcNMaApvOcfRM-62TC2VXx/pub?start=true&loop=true&delayms=3000">Rapport Bellabeat</a></li>
-    </ul>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Additional Style -->
+  <style>
+    /* Ajuster le padding pour réduire l'espace avant le contenu */
+    .hero .container {
+      padding-top: 0px; /* Réduire encore plus le padding */
+    }
+
+    /* Réduire le margin-top du hero */
+    .hero {
+      margin-top: 0;
+    }
+
+    /* Réduire le padding-top du body */
+    body {
+      padding-top: 0;
+    }
+
+    /* Ajuster la hauteur du header fixe */
+    .header {
+      height: 60px; /* Ajustez cette valeur selon vos besoins */
+    }
+
+    /* Réduire la taille de la police du nom et du titre */
+    .hero h1 {
+      font-size: 2rem; /* Taille plus petite pour le nom */
+    }
+
+    .hero h2 {
+      font-size: 1.5rem; /* Taille plus petite pour le titre */
+    }
+
+    /* Couleurs personnalisées pour les boîtes de projets */
+    .icon-box-green {
+      background-color: #28a745 !important; /* Vert original */
+      color: white !important;
+    }
+    
+    .icon-box-orange {
+      background-color: #F5B041 !important; /* Orange doux complémentaire */
+      color: white !important;
+    }
+
+    .icon-box-blue {
+      background-color: #007bff !important; /* Couleur bleue */
+      color: white !important;
+    }
+
+    .icon-box-yellow {
+      background-color: #ffc107 !important; /* Couleur jaune */
+      color: white !important;
+    }
+
+    /* Assurer que le texte dans les boîtes est blanc */
+    .icon-box .icon, .icon-box h4.title, .icon-box p {
+      color: white !important;
+    }
+    
+    /* Ajuster le padding des boîtes d'icônes */
+    .icon-boxes .icon-box {
+      padding: 20px !important;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header fixed-top">
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="https://www.linkedin.com/in/izzy-h/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.github.com/isa-pilpre" class="github"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section accent-background">
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-3 justify-content-between"> <!-- Reduced spacing -->
+          <div class="col-lg-8 d-flex flex-column justify-content-center">
+            <h1>Isabelle Pilpré</h1>
+            <h2>Data <span class="accent">Analyst</span></h2>
+            <p>Welcome to my Data Analysis Projects page.</p>
+            <p>You can also check out my <a href="https://github.com/isa-pilpre">GitHub profile</a> to review the code for each project.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="icon-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
+        <div class="container position-relative">
+          <div class="row gy-3 mt-2 justify-content-center">
+            <!-- Bellabeat Icon Box -->
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box icon-box-green">
+                <div class="icon"><i class="bi bi-watch"></i></div>
+                <h4 class="title"><a href="https://docs.google.com/presentation/d/e/2PACX-1vSu1zqhGeMOSQJXh9MEtGP2MOFpy7bBoLnW5KvPijUO2XHmS6zXIndi_mMcNMaApvOcfRM-62TC2VXx/pub?start=true&loop=true&delayms=3000" class="stretched-link">Bellabeat</a></h4>
+                <p>Smart device usage trends - Data analysis capstone project </p>
+                <p><em>Google Slides report in English</em></p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <!-- CPAM Icon Box -->
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box icon-box-orange">
+                <div class="icon"><i class="bi bi-capsule-pill"></i></div>
+                <h4 class="title"><a href="https://docs.google.com/presentation/d/e/2PACX-1vT3LUjnoYr0YMApe63vDnmmnv1WB43D03dsSEa6-Gz0DRHCPS6gYyNWr-V8GfNIdZ-vv9VIr0mqpjxr/pub?start=true&loop=true&delayms=6000" class="stretched-link">CPAM</a></h4>
+                <p>Exploratory data analysis on cancer prevalence in France<p>
+                <p><em>Google Slides report in French</em></p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <!-- New Otsokop Icon Box -->
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box icon-box-blue">
+                <div class="icon"><i class="bi bi-bar-chart"></i></div>
+                <h4 class="title">Otsokop</h4>
+                <p>Monitoring business KPIs such as weekly revenue, average basket size, gross margin</p>
+                <p><em>Private - Confidential Data</em></p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <!-- New FunWithSQL Icon Box -->
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box icon-box-yellow">
+                <div class="icon"><i class="bi bi-database-fill-check"></i></div>
+                  <h4 class="title"><a href="https://www.funwithsql.com/" class="stretched-link">Fun With SQL</a></h4>
+                <p>Creation of a website that makes learning SQL accessible and enjoyable</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Isabelle Pilpré</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+</html>
